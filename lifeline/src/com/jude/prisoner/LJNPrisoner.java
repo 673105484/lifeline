@@ -12,7 +12,7 @@ public class LJNPrisoner implements Prisoner {
 
     @Override
     public String getName() {
-        return "Áú¿¡ÄÐ2015214051";
+        return "Áú¿¡ÄÐ2015214051 ";
     }
 
     @Override
@@ -24,7 +24,7 @@ public class LJNPrisoner implements Prisoner {
     @Override
     public int take(int index, int last) {
 
-        return( ((totalCount-last-1)/(totalPerson-index))/2-1)/2;
+        return( ((totalCount-last-1)/(totalPerson-index))/2-1)/2-1;
     }
 
     @Override
