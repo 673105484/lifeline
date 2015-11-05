@@ -12,7 +12,7 @@ public class LJNPrisoner implements Prisoner {
 
     @Override
     public String getName() {
-        return "Áú¿¡ÄÐ2015214051 ";
+        return "é¾™ä¿Šç”·2015214051 ";
     }
 
     @Override
